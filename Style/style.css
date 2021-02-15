@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000000 url(../Style/intro.jpg) repeat 0 0;
+    font-family: "Reggae One", sans-serif;
+}
+.container {
+    display: flex;
+    width: 1200px;
+    height: 1319px;
+    margin: auto;
+    background-color: #DB7093;
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+}
+.symvol {
+    font-family: Reggae One;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+.link {
+    font-family: Reggae One;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    color: #000000;
+    text-decoration: none;
+}
+aside {
+    width: 390px;
+    height: 1319px;
+    background-color: #FFB6C1;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+aside {
+    display: block;
+}
+.padding {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+div {
+    display: block;
+}
+.tag {
+    padding-top: 60px;
+    padding-bottom: 20px;
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #000000;
+}
+h3 {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+ul {
+    display: block;
+    list-style-type: square;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.deto {
+    color: #DB7093;
+    margin-left: 17px;
+}
+.tech {
+    font-family: Reggae One;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.me {
+    padding-top: 110px;
+    padding-bottom: 110px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.pib {
+    font-family: Reggae One;
+    font-size: 45px;
+    line-height: 89px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.info {
+    font-family: Reggae One;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.date {
+    font-family: Reggae One;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.Lr {
+    font-family: Reggae One;
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
