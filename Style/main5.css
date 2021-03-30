@@ -1,0 +1,369 @@
+.main-block-h {
+  width: 300px;
+  height: 300px;
+  left: 360px;
+  background-color: #ffff;
+  border: 1px solid black;
+	position: relative;
+}
+
+.main-block-h .house {
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	background: coral;
+	bottom: 0px;
+	left:75px;
+}
+
+.main-block-h .roof {
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+	border-bottom: 75px solid red;
+	left: 75px;
+	top: 73px;
+	z-index:1;
+}
+
+.main-block-h .chimney {
+	position: absolute;
+	width: 20px;
+	height: 60px;
+	background: black;
+	left: 180px;
+	top:84px;
+}
+
+.main-block-h .door {
+	position: absolute;
+	width: 60px;
+	height: 90px;
+	background: brown;
+	bottom: 0px;
+	left:150px;
+	z-index:1;
+}
+
+.main-block-h .window {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background: cyan;
+	left: 90px;
+	top:160px;
+	z-index:1;
+}
+
+.main-block-w {
+  width: 500px;
+  height: 420px;
+  left: 260px;
+  border: 1px solid black;
+  position: relative;
+  background-color: #81CCC7;
+}
+
+.main-block-w img{
+  background:no-repeat;
+}
+
+.main-block-w img[alt="world"]{
+  position: absolute;
+  width: 100%;
+  bottom: -10px;
+}
+
+.main-block-w img[alt="water"]{
+  position: absolute;
+  width: 498px;
+  bottom: -157px;
+  z-index: 1;
+}
+
+.main-block-w img[alt="clouds"]{
+  position: absolute;
+  width: 60%;
+  top:-120px;
+  left:170px;
+}
+
+.main-block-w img[alt="wooden-ship"]{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  bottom: 30px;
+  left: 10px;
+}
+
+.sections-page-lab .fullwrap{
+  width: 600px;
+  height: 700px;
+  background-color: #ffff;
+  margin:auto;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.sections-page-lab .header{
+  border: 1px solid black;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.sections-page-lab .wrap{
+  border: 1px solid black;
+  padding: 10px;
+  height: 458px;
+  position: relative;
+}
+
+.sections-page-lab .wrap .main{
+  border: 1px solid black;
+  height: 100%;
+  width: 320px;
+  margin-right: 10px;
+}
+
+.sections-page-lab .wrap .sidebar{
+  border: 1px solid black;
+  position: absolute;
+  top:10px;
+  height: 436px;
+  width: 210px;
+  right:10px;
+}
+
+.sections-page-lab .footers{
+  border: 1px solid black;
+  height: 100px;
+  margin-top: 10px;
+}
+
+form[name="calculator1"]{
+	background-color: #ffff;
+	border: 3px solid #6E9C9E;
+	border-radius: 10px;
+	height: 400px;
+	width: 259px;
+}
+
+.casio{
+  background-color: #6E9C9E;
+  height: 36px;
+  color:white;
+  font-size: 14px;
+  text-align: end;
+  margin-top: 10px;
+  padding: 11px;
+  font-weight:bold;
+}
+
+.calc-wrap{
+  padding: 11px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.calc-wrap>input[name="ans"]{
+  width: 100%;
+  height: 36px;
+  border-radius: 5px;
+  border-color: #6E9C9E;
+  border-style: none;
+  border: 3px solid #6E9C9E;
+  text-align: end;
+  font-family: "Reggae One", sans-serif;
+  font-size: 14px;
+  font-weight:bold;
+  outline: none;
+  color:#6E9C9E;
+}
+
+.calc-wrap>input[type="button"]{
+  width: 50px;
+  height: 50px;
+  border-radius: 9px;
+  border-color: #6E9C9E;
+  border-style: none;
+  border: 3px solid #6E9C9E;
+  font-family: "Reggae One", sans-serif;
+  font-size: 14px;
+  text-align: center;
+  color:#6E9C9E;
+  background: #fff;
+  font-weight:bold;
+  outline: none;
+}
+
+.calc-wrap>input[type="button"]:hover{
+  color:#fff;
+  background: #6E9C9E;
+}
+
+.calc-wrap>input[type="button"]:active{
+  opacity: 0.5;
+}
+
+.calc-wrap>input[type="reset"]{
+  width: 84px;
+  height: 30px;
+  border-style: none;
+  background: #6E9C9E;
+  font-family: "Reggae One", sans-serif;
+  color:#fff;
+  margin-top: 8px;
+  margin-bottom: 15px;
+  float: right;
+  outline: none;
+}
+
+.calc-wrap>input[type="reset"]:hover{
+  background: #fff;
+  border: 3px solid #6E9C9E;
+  color:#6E9C9E;
+}
+
+.calc-wrap>input[type="reset"]:active{
+  opacity: 0.5;
+}
+
+.line-4-calc{
+  float: right;
+  margin-bottom: 10px;
+}
+
+.line-3-calc{
+  float: right;
+  margin-left: 10px;
+}
+
+.line-2-calc{
+  float: left;
+  margin-bottom: 10px;
+}
+
+.line-1-calc{
+  float: left;
+  margin-right: 10px;
+}
+
+.column-1-calc{
+  margin-bottom: 15px;
+}
+
+.column-2-calc{
+  margin-bottom: 14px;
+}
+
+form[name="calculator2"]{
+	background-color: #ffff;
+	border: 3px solid #6E9C9E;
+	border-radius: 10px;
+	height: 400px;
+	width: 259px;
+}
+
+.calc-wrap2{
+  padding: 11px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  position: relative;
+}
+
+.calc-wrap2>input[name="ans"]{
+  width: 100%;
+  height: 36px;
+  border-radius: 5px;
+  border-color: #6E9C9E;
+  border-style: none;
+  border: 3px solid #6E9C9E;
+  text-align: end;
+  font-family: "Reggae One", sans-serif;
+  font-size: 14px;
+  font-weight:bold;
+  outline: none;
+  color:#6E9C9E;
+}
+
+.calc-wrap2>input[type="button"]{
+  width: 50px;
+  height: 50px;
+  border-radius: 9px;
+  border-color: #6E9C9E;
+  border-style: none;
+  border: 3px solid #6E9C9E;
+  font-family: "Reggae One", sans-serif;
+  font-size: 14px;
+  text-align: center;
+  color:#6E9C9E;
+  background: #fff;
+  font-weight:bold;
+  outline: none;
+  position: absolute;
+}
+
+.calc-wrap2>input[type="button"]:active{
+  opacity: 0.5;
+}
+
+.calc-wrap2>input[type="button"]:hover{
+  color:#fff;
+  background: #6E9C9E;
+}
+
+.calc-wrap2>input[type="reset"]{
+  width: 84px;
+  height: 30px;
+  border-style: none;
+  background: #6E9C9E;
+  font-family: "Reggae One", sans-serif;
+  color:#fff;
+  margin-top: 8px;
+  margin-bottom: 15px;
+  outline: none;
+  position: absolute;
+  right: 11px;
+  top: 46px;
+}
+
+.calc-wrap2>input[type="reset"]:hover{
+  background: #fff;
+  border: 3px solid #6E9C9E;
+  color:#6E9C9E;
+}
+
+.calc-wrap2>input[type="reset"]:active{
+  opacity: 0.5;
+}
+
+.line-position-calc1{
+  top: 99px;
+}
+
+.line-position-calc2{
+  top:159px;
+}
+
+.line-position-calc3{
+  top:224px;
+}
+
+.line-position-calc4{
+  top:288px;
+}
+
+.button-calc4{
+  right: 11px;
+}
+
+.button-calc3{
+  right: 72px;
+}
+
+.button-calc2{
+  left: 72px;
+}
+

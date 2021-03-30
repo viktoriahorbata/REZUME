@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./Style/style.css">
+    <link rel="stylesheet" href="./Style/main4.css">
+    <link rel="stylesheet" href="./Style/main5.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ballet&family=Reggae+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+    <link rel="SHORTCUT ICON" href="./Style/panda.ico" type="image/x-icon">
+    <title> Laboratory work 5 </title>
+</head>
+<body>
+	<div class="menu">
+		<a href="./index.html">
+			<img src="./Style/home.ico" alt="home" class = "home"></a>
+		<nav>
+			<ul>
+				<li>
+					<a href="#task1"> Task1 </a>
+				</li>
+				<li>
+					<a href="#task2"> Task2 </a>
+				</li>
+				<li>
+					<a href="#task3"> Task3 </a>
+				</li>
+				<li>
+					<a href="#task4"> Task4 </a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+			<div class="container lab-container">
+        <div class="lab">
+            <div class="tag-lab-main">Laboratory work 5</div>
+            <h3 class="tag-lab" id="task1">Task 1</h3>
+            <div class="main-block-h">
+            	<div class="door"></div>
+            	<div class="window"></div>
+            	<div class="house"></div>
+            	<div class="chimney"></div>
+            	<div class="roof"></div>
+            </div>
+            <h3 class="tag-lab" id="task2">Task 2</h3>
+            <div class="main-block-w">
+                <img src="./Style/waterworld_files/world.svg" alt="world">
+                <img src="./Style/waterworld_files/clouds.svg" alt="clouds">
+                <img src="./Style/waterworld_files/water.svg" alt="water">
+                <img src="./Style/waterworld_files/wooden-ship.svg" alt="wooden-ship">
+            </div>
+                
+            <h3 class="tag-lab" id="task3">Task 3</h3>
+            <div class="sections-page-lab">
+                <div class="fullwrap">
+                    <div class="header"></div>
+                    <div class="wrap">
+                        <div class="main"></div>
+                        <div class="sidebar"></div>
+                    </div>
+                </div>
+            </div>
+            <h3 class="tag-lab"id="task4">Task 4</h3>
+            <div style="display: flex; justify-content: space-evenly;">
+                <form name="calculator1">
+                    <div class="casio">Casio 3432</div>
+                    <div class="calc-wrap">
+                        <input type="textfield" name="ans" value="">
+                        <input type="reset" value="C">
+                        <div style="clear: both;"></div>
+                        <input type="button" value="7" onclick="document.calculator1.ans.value+='7'" class="line-1-calc">
+                        <input type="button" value="8" onclick="document.calculator1.ans.value+='8'" class="line-2-calc">
+                        <input type="button" value="+" onclick="document.calculator1.ans.value+='+'" class="line-3-calc">
+                        <input type="button" value="9" onclick="document.calculator1.ans.value+='9'" class="line-4-calc">
+                        <input type="button" value="4" onclick="document.calculator1.ans.value+='4'" class="line-1-calc column-1-calc">
+                        <input type="button" value="5" onclick="document.calculator1.ans.value+='5'" class="line-2-calc column-1-calc">
+                        <input type="button" value="-" onclick="document.calculator1.ans.value+='-'" class="line-3-calc column-1-calc">
+                        <input type="button" value="6" onclick="document.calculator1.ans.value+='6'" class="line-4-calc column-1-calc">
+
+                        <input type="button" value="1" onclick="document.calculator1.ans.value+='1'" class="line-1-calc column-2-calc">
+                        <input type="button" value="2" onclick="document.calculator1.ans.value+='2'" class="line-2-calc column-2-calc">
+                        <input type="button" value="/" onclick="document.calculator1.ans.value+='/'" class="line-3-calc column-2-calc"> 
+                        <input type="button" value="3" onclick="document.calculator1.ans.value+='3'" class="line-4-calc column-2-calc">
+                        
+                        <input type="button" value="." onclick="document.calculator1.ans.value+='.'" class="line-1-calc">
+                        <input type="button" value="0" onclick="document.calculator1.ans.value+='0'" class="line-2-calc">
+                        <input type="button" value="*" onclick="document.calculator1.ans.value+='*'" class="line-3-calc">
+                        <input type="button" value="=" onclick="document.calculator1.ans.value=eval(document.calculator1.ans.value)" class="line-4-calc">
+                    </div>
+                </form>
+                <form name="calculator2">
+                    <div class="casio">Casio 3432</div>
+                    <div class="calc-wrap2">
+                        <input type="textfield" name="ans" value="">
+                        <input type="reset" value="C"><br>
+                        <input type="button" value="7" onclick="document.calculator2.ans.value+='7'" class="line-position-calc1">
+                        <input type="button" value="8" onclick="document.calculator2.ans.value+='8'" class="button-calc2 line-position-calc1">
+                        <input type="button" value="9" onclick="document.calculator2.ans.value+='9'" class="button-calc3 line-position-calc1">
+                        <input type="button" value="+" onclick="document.calculator2.ans.value+='+'" class="button-calc4 line-position-calc1">
+                        
+                        <input type="button" value="4" onclick="document.calculator2.ans.value+='4'" class="line-position-calc2">
+                        <input type="button" value="5" onclick="document.calculator2.ans.value+='5'" class="button-calc2 line-position-calc2">
+                        <input type="button" value="6" onclick="document.calculator2.ans.value+='6'" class="button-calc3 line-position-calc2">
+                        <input type="button" value="-" onclick="document.calculator2.ans.value+='-'" class="button-calc4 line-position-calc2">
+                        
+                        <input type="button" value="1" onclick="document.calculator2.ans.value+='1'" class="line-position-calc3">
+                        <input type="button" value="2" onclick="document.calculator2.ans.value+='2'" class="button-calc2 line-position-calc3">
+                        <input type="button" value="3" onclick="document.calculator2.ans.value+='3'" class="button-calc3 line-position-calc3">
+                        <input type="button" value="/" onclick="document.calculator2.ans.value+='/'" class="button-calc4 line-position-calc3"> 
+                        
+                        <input type="button" value="." onclick="document.calculator2.ans.value+='.'" class="line-position-calc4">
+                        <input type="button" value="0" onclick="document.calculator2.ans.value+='0'" class="button-calc2 line-position-calc4">
+                        <input type="button" value="=" onclick="document.calculator2.ans.value=eval(document.calculator2.ans.value)" class="button-calc3 line-position-calc4">
+                        <input type="button" value="*" onclick="document.calculator2.ans.value+='*'" class="button-calc4 line-position-calc4">
+                        
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>

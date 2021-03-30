@@ -1,0 +1,263 @@
+
+.lab-container {
+  height: auto;
+}
+
+.lab ul,ol,dd{
+  margin-left: 17px;
+}
+
+.lab ul li ,ol li,dt,dd{
+  margin-top: 17px;
+  margin-bottom: 17px;
+}
+
+.lab ul{
+  list-style-type:square;
+}
+
+.entities{
+  font-size: 16px;
+}
+
+.lab{
+  padding-top: 70px;
+  padding-bottom: 90px;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.tag-lab{
+  margin-bottom: 20px;
+  margin-top: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.tag-lab-main{ 
+  margin-bottom: 20px;
+  margin-top: 0px;
+  font-size: 40px;
+  text-align: left;
+  width:1020px;
+}
+
+.section-lab3{
+  border: 1px solid grey;
+  border-radius: 3%;
+  padding: 10px;
+  width: 800px;
+}
+
+.section-lab3 figure{
+  text-align: center;
+}
+
+.section-lab3 p{
+  margin-top: 10px;
+}
+
+
+.lab-menu{
+  margin: -17px;
+  margin-top: 10px;
+}
+
+.lab-menu a{
+  text-decoration: none;
+  color: white;
+}
+
+article.section-lab3 h1{
+  font-size: 20px;
+  color: green;
+}
+
+section.section-lab3 img{
+  margin-top: 10px;
+  width: 700px;
+}
+
+article.section-lab3 p:nth-of-type(1){
+  background: red;
+  color: white;
+}
+
+article.section-lab3 div{
+  display: flex;
+  justify-content: center;
+}
+
+article.section-lab3 div figure{
+  border: 2px solid black;
+  width: 714px;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+article.section-lab3 div figure img{
+  width: 700px;
+}
+
+.lab-menu ul{
+  margin-top: 10px;
+  background-color: #544e60;
+  border:1px solid #bba3be;
+  width: 200px;
+  padding: 0;
+}
+.lab-menu li{
+  padding: 5px;
+  border-bottom:1px solid #bba3be;
+  list-style-type: none;
+}
+
+.lab-menu li:last-child{
+  border-bottom: none;
+}
+
+.lab-menu a:hover{
+  text-decoration: underline;
+}
+
+.myblock{
+  font-family: Arial, Helvetica, sans-serif;
+    width: 400px;
+    height: 200px;
+    border: 3px solid black;
+    border-radius: 4px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.lemon {
+    width: 180px;
+    height: 180px;
+    margin: 10px;
+    background: url('https://cdn4.iconfinder.com/data/icons/Limon_iContainer/512/Grapefruit.png');
+    background-size: contain;
+    background-position: 50%;
+    border-radius: 5px;
+    float: left;
+}
+.about-lemon h3 {
+    text-align: center;
+    padding: 10px 0;
+}
+.about-lemon p {
+    font-size: 14px;
+    line-height: 100%;
+    margin: 20px 0px;
+}
+
+.wrap-lab4 {
+  font-family: 'Exo 2', sans-serif;
+  width: 350px;
+  margin: 40px auto;
+  border: 1px solid #c0c0c0;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.wrap-lab4 h1 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.wrap-lab4 img{
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 300px;
+  box-shadow: 0 0 10px #454545;
+}
+
+.wrap-lab4 p {
+  font-size: 13px;
+  line-height: 150%;
+  margin: 5px 0;
+  padding: 5px;
+}
+
+.wrap-lab4 .info {
+  border-bottom: 1px solid #c0c0c0;
+  padding: 10px;
+  text-align: center;
+}
+
+.wrap-lab4 .side {
+  font-weight: 700px;
+  width: 140px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.wrap-lab4 p:nth-child(2n) {
+  background: #ececec;
+}
+
+.red-card{
+  color:red;
+}
+
+.card-icon p{
+  margin-bottom: 20px;
+}
+
+.css-code{
+  font-size: 20px;
+}
+
+.links{ 
+  background:#F6967D;
+}
+
+.links a{
+  color:#FFFDEB;
+  display:inline-block;
+  border-right:1px solid #B62025;
+  padding:5px 10px;
+}
+
+.links a:last-child{
+  border-right:none;
+}
+
+.header-center{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.header-center h1{
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.horizontal-line{
+  border-top: 6px solid #000;
+  width: 60%;
+  position: relative;
+  top: 16px;
+  margin-bottom: 0px;
+  float: right;
+}
+
+.battery{
+  width: 150px; height: 50px;
+  border: solid 4px; 
+  margin-bottom: 10px;
+  position: relative;
+}
+.battery::after{
+  content: "";
+  width: 10px;
+  height: 20px;
+  background: #000000;
+  position: absolute;
+  left: 143px; bottom: 11px;
+}
+.battery-green{background: green;}
+.battery-red{background: linear-gradient(to right, red 50px, #ffffff 51px)}
+.battery-yellow{background: linear-gradient(to right, yellow 100px, #fff 101px);}
