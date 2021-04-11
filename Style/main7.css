@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+}
+
+.row {
+  position: relative;
+  height: 450px;
+  width: 970px;
+  border: 1px solid lightgrey;
+  margin: 100px auto;
+  display: flex;
+}
+
+.arrow {
+  position: absolute;
+  height: 37px;
+  width: 37px;
+  border-radius: 50%;
+  border: 2px solid lightgrey;
+  top: 81px;
+  text-align: center;
+  background-color: #FFF;
+  padding-top: 8px;
+  color: lightgrey;
+  cursor: pointer;
+}
+
+ .arrow-left {
+   left: -18px;
+ }
+
+ .arrow-right {
+   right: -18px;
+ }
+
+.column {
+  position: relative;
+  height: 449px;
+  width: 100%;
+  border-right: 1px solid lightgrey;
+  padding: 0 20px;
+}
+
+.column:last-child {
+  border-right: none;
+}
+
+.sticker {
+  position: absolute;
+  right: 10px;
+  top: -35px;
+  border-radius: 50%;
+  border: 3px solid #FFF;
+  width: 70px;
+  height: 70px;
+  color: #FFF;
+  font-size: 12px;
+  text-align: center;
+}
+
+.sticker-new {
+  background-color: #86b022;
+  line-height: 70px;
+}
+
+.sticker-hot {
+  background-color: #009de1;
+  padding-top: 15px;
+}
+
+.category {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  border-bottom: 1px solid lightgrey;
+  color: grey;
+  padding: 40px 0;
+  margin-bottom: 20px;
+}
+
+.product-image {
+  max-width: 90%;
+  max-height: 150px;
+  display: block;
+  margin: auto;
+}
+
+.product-name {
+  position: absolute;
+  bottom: 150px;
+  left:50%;
+  transform: translate(-50%);
+  text-align: center;
+  text-decoration: none;
+  color: #4289fc;
+  font-weight: bold;
+}
+
+.price {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 105px;
+  font-size: 15px;
+}
+
+.number {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.through-text {
+  padding-right: 5px;
+  text-decoration: line-through;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.button {
+  position: absolute;
+  left:50%;
+  transform:translate(-50%);
+  bottom: 40px;
+  width: 140px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  padding-top: 5px;
+}
+
+.button-not__clickable {
+  padding-top: 4px;
+  background-color: #cc3399;
+  color: #FFF;
+  pointer-events: none;
+  cursor: default;
+}
+
+.button-clickable {
+  padding-top: 12px;
+  background-color: #f0e524;
+  color: #000;
+  transition: background 0.2s;
+}
+
+.button-clickable:hover {
+  background-color: #fff100;
+}
