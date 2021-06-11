@@ -1,0 +1,276 @@
+.main-troll-lab6 {
+  background-color: white;
+  font-family: Verdana, Tahoma, sans-serif;
+  width: 500px;
+  border: 1px solid #666;
+  padding-bottom: 10px;
+  margin: auto;
+}
+
+.main-img-troll-lab6 {
+  width: 100%;
+  height: 150px;
+}
+
+.main-troll-lab6 h2 {
+  text-align: center;
+  margin: 20px;
+}
+
+.main-troll-lab6 p {
+  font-size: 14px;
+  line-height: 17px;
+  margin: 10px;
+  text-indent: 15px;
+}
+
+.it-troll-lab6 {
+  font-style: italic;
+  color: brown;
+}
+
+.wrap-puhach-lab6 {
+  background-color: white;
+  font-family: Arial;
+  line-height: 22px;
+  width: 800px;
+  margin: 10px auto;
+  border: 1px solid #666;
+  padding: 10px;
+}
+
+.main-img-puhach-lab6 {
+  width: 100%;
+  margin: 20px 0px;
+}
+
+.wrap-puhach-lab6 h1 {
+  text-align: center;
+  margin-top: 30px;
+  border-bottom: 1px dotted #333;
+  padding-bottom: 30px;
+}
+
+.wrap-puhach-lab6 p {
+  margin: 20px 0px;
+  text-indent: 30px;
+}
+
+.second-img-puhach-lab6 {
+  float: right;
+  margin: 30px 0px 30px 30px;
+}
+
+.footer-puhach-lab6 {
+  background: cadetblue;
+  text-align: center;
+  padding: 30px;
+  color: #fff;
+}
+
+.wrap-header-lab6 {
+  height: 120px;
+  margin: auto;
+  margin-left: -100px;
+  margin-bottom: 40px;
+  width: 1200px;
+  padding-top: 35px;
+  background-image: url("../Style/LR6/body-bg.png");
+}
+
+.img-utp-container-lab6 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.img-utp-lab6 {
+  height: 65px;
+  width: 930px;
+}
+
+.hotbar-lab6 {
+  background-color: white;
+  display: flex;
+  position: relative;
+  width: 930px;
+  margin: 0 auto;
+  overflow: hidden;
+  left: 119px;
+}
+
+.item-hotbar-lab6 {
+  background-color: #eff3f4;
+  margin-right: 3px;
+  list-style: none;
+}
+
+.hotbar-lab6 button {
+  background-color: #eff3f4;
+  padding: 7px 18px;
+  outline: none;
+  border: none;
+}
+
+.item-hotbar-lab6 button:focus {
+  background-color: #c1d1d6;
+}
+
+.item-hotbar-lab6 button:focus::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  box-sizing: content-box;
+  height: 3px;
+  background: #c1d1d6;
+  top: 43.3px;
+}
+
+.wrap-menu-burger-lab6 {
+  background-color: white;
+  height: 530px;
+  width: 1054px;
+  background: linear-gradient(to right bottom, #241e1f, #463a37);
+  padding-left: 50px;
+  padding-right: 64px;
+  padding-top: 25px;
+  padding-bottom: 48px;
+  position: relative;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.burger-foto-lab6 {
+  height: 392px;
+  width: 329px;
+  float: left;
+}
+
+.up-img-dib-lab6 {
+  height: 212px;
+  width: 338px;
+  background-color: #000000;
+  position: absolute;
+  top: 155px;
+  left: 38px;
+  text-align: center;
+  color: #fff;
+  padding-top: 40px;
+  padding-bottom: 34px;
+}
+
+.up-img-dib-lab6 p:nth-child(1) {
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 40px;
+}
+
+.up-img-dib-lab6 p:nth-child(2) {
+  margin-top: 10px;
+  font-size: 16px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.up-img-dib-lab6 span {
+  color: #f7c73a;
+}
+
+.main-menu-burger-lab6 {
+  height: 392px;
+  width: 611px;
+  background-color: #fff;
+  float: right;
+  padding-top: 40px;
+  padding-left: 70px;
+  padding-right: 60px;
+}
+
+.main-menu-burger-lab6 h1 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.main-menu-burger-lab6 > h1 {
+  margin-bottom: 60px;
+}
+
+.section-menu-burger-lab6 {
+  float: left;
+  width: 200px;
+  text-align: center;
+  height: 70px;
+  position: relative;
+  margin-right: 40px;
+  margin-bottom: 10px;
+}
+
+.section-menu-burger-lab6 h1 {
+  margin-bottom: 6px;
+}
+
+.section-menu-burger-lab6 {
+  position: relative;
+}
+
+.section-menu-burger-lab6 p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 500;
+  color: #999999;
+  margin-bottom: 5px;
+}
+
+.section-menu-burger-lab6 div {
+  margin-bottom: 20px;
+  margin: auto;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-bottom: 6px solid #d5d5d5;
+  position: relative;
+  top: -6px;
+}
+
+.section-menu-burger-lab6 div:after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: -6px;
+  top: 6px;
+  border: 6px solid transparent;
+  border-top: 6px solid #d5d5d5;
+}
+
+.section-menu-burger-lab6 hr {
+  background-color: #d5d5d5;
+  height: 1px;
+  border: none;
+  outline: none;
+  top: 57.5px;
+  position: absolute;
+  width: 100%;
+}
+
+.wrap-menu-burger-lab6 button {
+  margin-top: 6px;
+  height: 55px;
+  width: 176px;
+  float: right;
+  background-color: #000000;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.wrap-menu-burger-lab6 button:hover {
+  background-color: #fff;
+  color: #000000;
+  border: 2px solid #000000;
+}
+
+.wrap-menu-burger-lab6 button:active {
+  color: #000000;
+  border: 2px solid #000000;
+  background-color: #d5d5d5;
+}
